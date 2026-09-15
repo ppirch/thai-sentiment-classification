@@ -1,7 +1,6 @@
-# Data (gitignored, regenerate)
-Run:
+# Data (committed from sentence-classification)
+- `train.csv` (5.5MB), `test.csv` — Wisesight sentiment.
 
+Regenerate:
   python scripts/download_data.py --out-dir data
-
-This fetches Wisesight train/test txt from PyThaiNLP and writes `train.csv`, `test.csv`.
 Source: https://github.com/PyThaiNLP/wisesight-sentiment

@@ -8,13 +8,7 @@ env/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Data / artifacts (large, regenerate or download from Releases)
-data/*.csv
-data/*.txt
-!data/.gitkeep
-artifacts/*.pth
-artifacts/*.pt
-*.pth
+# Data / artifacts (migrated from old repos, kept in git per user request)
 test_trainer/
 save_weights/
 wandb/

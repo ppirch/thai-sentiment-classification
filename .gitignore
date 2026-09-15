@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data / artifacts (large, regenerate or download from Releases)
+data/*.csv
+data/*.txt
+!data/.gitkeep
+artifacts/*.pth
+artifacts/*.pt
+*.pth
+test_trainer/
+save_weights/
+wandb/
+lightning_logs/
+
+# Env / OS
+.env
+.DS_Store
+.vscode/
+.idea/
